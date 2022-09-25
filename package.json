@@ -15,7 +15,8 @@
     "feather-icons": "^4.28.0",
     "nuxt": "^2.15.7",
     "nuxt-mail": "^3.0.23",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "vue-sidebar-menu-akahon": "^0.1.4"
   },
   "devDependencies": {
     "@nuxt/types": "~2.15.0",

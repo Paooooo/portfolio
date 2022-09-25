@@ -2,11 +2,13 @@
 import {mapState} from "vuex";
 import HireMeModal from "../HireMeModal.vue";
 import AppNavigation from "./AppNavigation.vue";
+import AppSideBar from "./AppSideBar";
 
 export default {
   components: {
     HireMeModal,
     AppNavigation,
+    AppSideBar,
   },
   data: () => {
     return {
@@ -182,6 +184,8 @@ export default {
         :modal="modal"
         :categories="categories"
       />
+
+      <AppSideBar/>
 
       <!-- Header right section buttons -->
       <div
